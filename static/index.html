@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/custom/main.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>jQuery and bootstrap</h1>
+  <hr />
+  <div class="container-fluid">
+  
+	<div class="container-fluid">
+		<ul>
+			<li>Instruction 1</li>
+			<li>...</li>
+		</ul>
+	</div>
+
+	<!-- Ajax fetched -->
+	<p class="container-fluid bginfo" id="ajax1div"></p>
+	
+	<!-- Ajax fetched -->
+	<p class="container-fluid bginfo" id="ajax2div"></p>
+	
+	<!-- Clock -->
+	<table class="table">
+		<thead>
+			<tr class="bg-primary">
+				<th>Clock</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="clockdiv"></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<button class="btn btn-primary" onclick="alert('Hello.');">Create alert</button>
+	<button class="btn btn-default" onclick="$('#ajax1div').toggle();">Toggle student</button>
+	
+	<!-- Contains mouse coord -->
+	<footer class="footer">
+	  <div class="container">
+		<p class="text-muted" id="coordiv">Place sticky footer content here.</p>
+	  </div>
+	</footer>
+  </div>
+</div>
+
+</body>
+</html>
